@@ -1,0 +1,10 @@
+<div class="clock-container gap-12 h-screen w-screen">
+    <div>
+        <span class="time">{{ currentTime | date: 'HH:mm' }}</span>
+        <span class="font-bold">{{ currentTime | date: ':ss' }}</span>
+    </div>
+    <div class="date text-center">
+        <span class="uppercase">{{ currentTime | date: 'EEEE' }}<br></span>
+        {{ currentTime | date: 'dd. MMMM yyyy' }}
+    </div>
+</div>

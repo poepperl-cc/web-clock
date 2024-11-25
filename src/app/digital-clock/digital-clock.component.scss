@@ -1,0 +1,11 @@
+.clock-container {
+    @apply flex flex-col items-center justify-center p-5;
+}
+
+.time {
+    @apply text-7xl font-bold;
+}
+
+.date {
+    @apply text-lg;
+}
